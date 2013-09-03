@@ -3,6 +3,10 @@ trie-hard
 
 trie-hard is a JavaScript [trie](http://en.wikipedia.org/wiki/Trie) implementation.
 
+[![Build Status](https://travis-ci.org/BinaryMuse/trie-hard.png?branch=master)](https://travis-ci.org/BinaryMuse/trie-hard)
+
+[![NPM](https://nodei.co/npm/trie-hard.png?downloads=true)](https://nodei.co/npm/trie-hard/)
+
 API
 ---
 
