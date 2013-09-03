@@ -1,0 +1,26 @@
+p
+  | trie-hard is a JavaScript implementation of the
+  |  <a href="http://en.wikipedia.org/wiki/Trie">trie</a> data structure;
+  | it works in <a href="http://nodejs.org">Node</a> and in the browser.
+  | Its search API returns information about full word matches as well as
+  | prefix matches.
+
+div(ng-controller="DemoController")
+  h2 Demo
+
+  p This demo shows the internal representation of a trie with a <code>matchCharacter</code> value of "_" instead of the default null character.
+
+  .demo-box
+    p
+      | Add a new word to the trie:
+      form(ng-submit="addWord()")
+        input(ng-model="newWord", type="text")
+        input(type="submit", value="Add Word", ng-disabled="invalidWord()")
+
+  .demo-box
+    p
+      | Test for the existance of a word in the trie:
+      input(ng-model="checkWord", type="text")
+      span(ng-bind="wordCheckResult()")
+
+  pre.demo(ng-bind="trie.toObject() | json")

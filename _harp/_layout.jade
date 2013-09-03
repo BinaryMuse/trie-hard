@@ -1,0 +1,25 @@
+!!!
+html
+  head
+    link(href='http://fonts.googleapis.com/css?family=Average+Sans|Ubuntu:400,700|Inconsolata:400,700', rel='stylesheet', type='text/css')
+    link(rel="stylesheet", href="/main.css")
+    script(type="text/javascript", src="js/trie.js")
+    script(type="text/javascript", src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular.min.js")
+    script(type="text/javascript", src="js/app.js")
+  body(ng-app="trie-hard")
+    .top
+      .main
+        h1 trie-hard
+        h2.sub A JavaScript trie implementation for Node.js and the browser
+
+    .main
+      .buttons
+        a.button(href="index.html") Main
+        a.button(href="api.html") API
+        a.button(href="example.html") Example Code
+        a.button.right(href="https://github.com/BinaryMuse/trie-hard")
+          img(src="images/gh.png", title="BinaryMuse/trie-hard on GitHub")
+
+    .content
+      .main
+        != yield

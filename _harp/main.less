@@ -1,0 +1,117 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu", "Arial", "Helvetica", "Lucida Grande", "Verdana", "Gill Sans", sans-serif;
+  font-weight: 700;
+
+  &.sub {
+    font-weight: normal;
+  }
+}
+
+h3 {
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  padding: 0;
+  margin: 5px 0;
+}
+
+body, p, input {
+  font-family: "Average Sans", Rockwell, serif;
+  font-size: 14pt;
+}
+
+input[type=text], input[type=submit] {
+  font-size: 12pt;
+  padding: 2px;
+}
+
+code, textarea, pre {
+  font-family: "Inconsolata", Menlo, Courier New, Courier, Mono, monospace;
+}
+
+.main {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.buttons {
+  // margin-top: -40px;
+  color: white;
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    margin-top: -25px;
+    margin-right: 10px;
+    font-size: 20px;
+
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .button.right {
+    height: 40px;
+    margin-top: -40px;
+    float: right;
+    padding: 10px;
+  }
+}
+
+.top {
+  background-color: #3366cc;
+  color: white;
+
+  h1 {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 48pt;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 10px 0 40px;
+  }
+}
+
+.content {
+  clear: both;
+  padding-top: 5px;
+}
+
+.demo-box {
+  width: 420px;
+  background-color: #3366cc;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 5px;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+pre.demo {
+  padding-top: 10px;
+  clear: both;
+}
