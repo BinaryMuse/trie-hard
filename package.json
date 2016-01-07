@@ -4,7 +4,7 @@
   "description": "Native JavaScript trie implementation",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/nodeunit test/test_*.coffee"
+    "test": "./node_modules/.bin/nodeunit test/test_*.js"
   },
   "repository": {
     "type": "git",
@@ -13,13 +13,10 @@
   "keywords": [
     "trie"
   ],
-  "author": "Brandon Tilley <brandon@brandontilley.com>",
+  "author": "Michelle Tilley <michelle@michelletilley.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BinaryMuse/trie-hard/issues"
-  },
-  "dependencies": {
-    "coffee-script": "~1.6.3"
   },
   "devDependencies": {
     "nodeunit": "~0.8.1"
